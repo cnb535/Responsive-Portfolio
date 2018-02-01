@@ -1,0 +1,470 @@
+html {
+	max-width: 1440px;
+	display: inline-block;
+}
+
+html, body {
+	margin: 0;
+	width: 974px;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p, a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+li {
+	float: left;
+}
+
+form {
+	position: relative;
+	top: -8px;
+}
+
+textarea {
+	width: 584px;
+	height: 190px;
+	border-color: #dfdfdf;
+}
+
+input[type="text"] {
+	width: 584px;
+	height: 22px;
+	margin-bottom: 7px;
+	font-size: 15px;
+}
+
+input[type="submit"] {
+	width: 117px;
+	height: 41px;
+	margin-top: 20px;
+	background-color: #a9c6fb;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 19px;
+	font-weight: bolder;
+	color: #ffffff;
+}
+
+.background {
+	background-image: url(../images/intersection.png);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	min-height: 731px;
+	margin-bottom: -50px;
+}
+
+.entire {
+	display: inline-block;
+	width: 1398px;
+	padding: 38px 0px;
+}
+
+.sections {
+	background-color: #ffffff;
+	border-color: #c9c9c9;
+	border-style: solid;
+	border-width: 0.5px;
+
+}
+
+.social {
+	width: 45%;
+}
+
+.portfolio {
+	display: inline-block;
+	width: 274px;
+	height: 206px;
+}
+
+.footer {
+	display: block;
+	border-style: solid;
+	border-color: #a9c6fb;
+	border-top-width: 8px;
+	font-size: 7pt;
+	background-color: #666666;
+	text-align: center;
+	color: white;
+}
+
+.footer p {
+	font-size: 12px;
+	padding: 40px 368px;
+}
+
+.footer, .push {
+	/*height: 100px;*/
+}
+
+#navbar {
+	background-color: #ffffff;
+	height: 43px;
+	padding: 0px 20px 48px 162px;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #c9c9c9;
+}
+
+#navbar ul {
+	width: 627px;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 380px;
+	top: 33px;
+}
+
+#navbar a {
+	font-size: 19px;
+    color: #c9c9c9;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-right: solid;
+    border-width: 1px;
+}
+
+#navbar li a:hover {
+	color: #ffffff;
+	background-color: #c9c9c9;
+}
+
+#navbar #contact-btn {
+	border-right: none;
+}
+
+#navtitle {
+	font-size: 32px;
+	font-weight: bolder;
+	height: 43px;
+	width: 310px;
+	background-color: #a9c6fb;
+	float: left;
+	padding: 28px 20px 20px 20px;
+	color: #ffffff;
+}
+
+#main {
+	display: inline-block;
+	width: 590px;
+	height: 384px;
+	position: relative;
+	left: 160px;
+	padding: 40px 30px;
+	margin-right: 41px;	
+}
+
+#main h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #a9c6fb;
+	margin-bottom: 30px;
+}
+
+#main hr {
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	margin-bottom: 30px;
+}
+
+#main img {
+	width: 35%;
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	position: relative;
+	top: 7px;
+}
+
+#main p {
+	font-size: 18px;
+	line-height: 1.7;
+	display: inline;
+}
+
+#bg-long {
+	margin-bottom: 0px;
+}
+
+#gallery {
+	display: inline-block;
+	width: 590px;
+	height: 823px;
+	position: relative;
+	left: 160px;
+	padding: 40px 30px;
+	margin-right: 41px;	
+}
+
+#gallery h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #a9c6fb;
+	margin-bottom: 30px;
+}
+
+#gallery hr {
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	margin-bottom: 30px;
+}
+
+
+#gallery p {
+	font-size: 22px;
+	line-height: 3;
+	text-align: center;
+	color: #ffffff;
+	background-color: #a9c6fb;
+	height: 61px;
+	position: relative;
+	top: 145px;
+}
+
+#hangman {
+	background-image: url(../images/hangman.jpg);
+	margin-right: 38px;
+	margin-bottom: 56px;
+}
+
+#rpg-game {
+	background-image: url(../images/rpg-game.jpg);
+	margin-bottom: 56px;
+}
+
+#trivia-game {
+	background-image: url(../images/trivia-game.jpg);
+	margin-right: 38px;
+	margin-bottom: 56px;
+}
+
+#rutgers {
+	background-image: url(../images/rutgers.jpg);
+}
+
+#rps {
+	background-image: url(../images/rps.jpg);
+}
+
+#contact {
+	display: inline-block;
+	width: 590px;
+	height: 524px;
+	position: relative;
+	left: 160px;
+	padding: 40px 30px;
+	margin-right: 41px;	
+}
+
+#contact h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #a9c6fb;
+	margin-bottom: 30px;
+}
+
+#contact hr {
+	border-width: 1.5px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	margin-bottom: 30px;
+}
+
+#contact p {
+	font-size: 18px;
+	line-height: 2;
+	display: inline;
+}
+
+#sidebar {
+	width: 246px;
+	height: 137px;
+	padding: 30px;
+	float: right;
+	position: relative;
+	right: 239px;
+}
+
+#sidebar h3 {
+	font-size: 22px;
+	font-weight: bolder;
+	color: #a9c6fb;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#sidebar hr {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c9c9c9;
+	margin-bottom: 20px;
+}
+
+#sidebar ul {
+	position: relative;
+	left: 44px;
+}
+
+#sidebar li {
+	margin: 0px -39px;
+	width: 160px;
+}
+
+@media (max-width: 980px) {
+
+  html {
+  	max-width: 980px;
+  }
+
+  .entire {
+  	width: 980px;
+  }
+
+  #navtitle {
+  	position: relative;
+  	right: 56px;
+  }
+
+  #navbar ul {
+  	left: 100px;
+  }
+
+  #main {
+	width: 359px;
+	height: 831px;
+	left: 106px;
+	margin-bottom: 50px;
+  }
+
+  #main img {
+	width: 100%;
+  }
+
+  #sidebar {
+	right: 106px;
+  }
+	
+}
+
+@media (max-width: 768px) {
+
+  html {
+  	max-width: 768px;
+  }
+
+  .entire {
+  	width: 768px;
+  }
+
+  .footer p {
+	width: 187px;
+	padding: 40px 300px;
+  }
+
+   #navtitle {
+  	position: relative;
+  	right: 142px;
+  }
+
+  #navbar ul {
+  	left: -26px;
+  }
+	
+  #main {
+	width: 667px;
+	height: 475px;
+	left: 20px;
+	margin-bottom: 40px;
+	margin-right: 0px;
+  }
+
+  #main img {
+	width: 48%;
+	position: relative;
+	top: 7px;
+  }
+
+  #main p {
+	display: table-row;
+  }
+
+  #sidebar {
+  	width: 667px;
+	right: 20px;
+	margin-bottom: 52px;
+  }
+
+  #sidebar ul {
+	left: 256px;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  html {
+  	max-width: 640px;
+  }
+
+  .entire {
+  	width: 640px;
+  }
+
+  .footer p {
+	width: 187px;
+	position: relative;
+	right: 68px;
+  }
+
+  #navtitle {
+  	width: 600px;
+  }
+
+  #navtitle h1 {
+    position: relative;
+    left: 150px;
+  }
+
+  #navbar {
+/*  	width: 478px;
+
+*/  	width: 100%;
+		height: 107px;
+/*  	padding: 0px 20px 48px 142px;
+*/  }
+
+  #navbar ul {
+  	left: -112px;
+  	top: 23px;
+  }
+
+  #navbar a {
+    padding: 5px 66px;
+  }
+
+  #main {
+	width: 539px;
+	height: 888px;
+  }
+
+  #main img {
+	width: 100%;
+    top: 0px;
+  }
+
+  #sidebar {
+  	width: 539px;
+	right: 20px;
+	margin-bottom: 52px;
+  }
+
+   #sidebar ul {
+	left: 194px;
+  }
+}
