@@ -5,7 +5,7 @@ html {
 
 html, body {
 	margin: 0;
-	width: 974px;
+	width: 1440px;
 }
 
 h1, h2, h3 {
@@ -115,7 +115,7 @@ input[type="submit"] {
 	padding: 0px;
 	margin: 0px;
 	position: relative;
-	left: 380px;
+	left: 386px;
 	top: 33px;
 }
 
@@ -229,27 +229,32 @@ input[type="submit"] {
 
 #hangman {
 	background-image: url(../images/hangman.jpg);
+	background-size: 274px 206px;
 	margin-right: 38px;
 	margin-bottom: 56px;
 }
 
 #rpg-game {
 	background-image: url(../images/rpg-game.jpg);
+	background-size: 274px 206px;
 	margin-bottom: 56px;
 }
 
 #trivia-game {
 	background-image: url(../images/trivia-game.jpg);
+	background-size: 274px 206px;
 	margin-right: 38px;
 	margin-bottom: 56px;
 }
 
 #rutgers {
 	background-image: url(../images/rutgers.jpg);
+	background-size: 274px 206px;
 }
 
 #rps {
 	background-image: url(../images/rps.jpg);
+	background-size: 274px 206px;
 }
 
 #contact {
@@ -322,8 +327,34 @@ input[type="submit"] {
   	max-width: 980px;
   }
 
+  html, body {
+	margin: 0;
+	width: 980px;
+  }
+
+  textarea {
+  	width: 353px;
+  }
+
+  input[type="text"] {
+  	width: 353px;
+  }
+
+  .background {
+  	width: 980px;
+  }
+
   .entire {
   	width: 980px;
+  }
+
+  .portfolio {
+	width: 358px;
+	height: 268px;
+  }
+
+  .footer, .push {
+    width: 980px;
   }
 
   #navtitle {
@@ -332,7 +363,7 @@ input[type="submit"] {
   }
 
   #navbar ul {
-  	left: 100px;
+  	left: 80px;
   }
 
   #main {
@@ -349,31 +380,135 @@ input[type="submit"] {
   #sidebar {
 	right: 106px;
   }
+
+  #gallery {
+	width: 359px;
+	height: 1666px;
+	left: 106px;	
+  }
+
+  #gallery h2 {
+    margin-bottom: 29px;	
+  }
 	
+  #gallery hr {
+    margin-bottom: 40px;	
+  }
+
+  #gallery p {
+    top: 207px;	
+  }
+
+  #rutgers {
+	margin-bottom: 56px;
+	background-size: 358px 268px;
+  }
+
+ #hangman {
+	background-size: 358px 268px;
+  }
+
+  #rpg-game {
+	background-size: 358px 268px;
+  }
+
+  #trivia-game {
+	background-size: 358px 268px;
+  }
+
+  #rps {
+	background-size: 358px 268px;
+  }
+
+  #contact {
+  	width: 359px;
+  	left: 105px;
+  }
 }
 
 @media (max-width: 768px) {
 
+  * {
+  	width: 768px;
+  }
+
   html {
   	max-width: 768px;
+  }
+
+  html, body {
+	margin: 0;
+	width: 768px;
+  }
+
+  form {
+  	width: 666px;
+  }
+
+  textarea {
+  	width: 661px;
+  }
+
+  input[type="text"] {
+  	width: 661px;
+  }
+
+  .background {
+  	width: 768px;
   }
 
   .entire {
   	width: 768px;
   }
 
+  .gallery-div {
+  	width: 313px;
+  }
+
+  .portfolio {
+	width: 313px;
+	height: 235px;
+  }
+
+  .footer, .push {
+  	width: 768px;
+  }
+
   .footer p {
 	width: 187px;
-	padding: 40px 300px;
+	padding: 40px 290px;
   }
 
    #navtitle {
   	position: relative;
-  	right: 142px;
+  	right: 122px;
+  }
+
+  #navtitle h1 {
+    position: relative;
+    left: 2px;
+    width: 303px;
+  }
+
+  #navbar {
+ 	width: 606px;
+ 	padding: 0px 20px 48px 142px;  
   }
 
   #navbar ul {
-  	left: -26px;
+  	left: -167px;
+  	float: right;
+  	width: 240px;
+  }
+
+  #navbar li {
+  	width: 130px;
+  	margin: 0px -25px;
+  }
+
+  #navbar #contact-btn {
+  	position: relative;
+  	left: 20px;
   }
 	
   #main {
@@ -382,6 +517,14 @@ input[type="submit"] {
 	left: 20px;
 	margin-bottom: 40px;
 	margin-right: 0px;
+  }
+
+  #main h2 {
+  	width: 538px;
+  }
+
+  #main hr {
+  	width: 663px;
   }
 
   #main img {
@@ -400,57 +543,175 @@ input[type="submit"] {
 	margin-bottom: 52px;
   }
 
+  #sidebar h3 {
+  	width: 672px;
+  }
+
+  #sidebar hr {
+  	width: 670px;
+  }
+
   #sidebar ul {
 	left: 256px;
+	width: 246px;
+  }
+
+  #gallery {
+	width: 668px;
+	height: 919px;
+	left: 20px;
+	margin-bottom: 40px;	
+  }
+
+  #gallery h2 {
+	width: 667px;
+  }
+
+  #gallery hr {
+	width: 662px;
+  }
+
+  #gallery p {
+  	top: 174px;
+	width: 313px;
+  }
+
+  #hangman {
+	background-size: 313px 234px;
+  }
+
+  #rpg-game {
+	background-size: 313px 234px;
+  }
+
+  #trivia-game {
+	background-size: 313px 234px;
+  }
+
+  #rutgers {
+	background-size: 313px 234px;
+  }
+
+  #rps {
+	background-size: 313px 234px;
+  }
+
+  #contact {
+  	width: 667px;
+  	left: 20px;
+  	margin-bottom: 40px;
+  }
+
+  #contact h2 {
+  	width: 666px;
+  }
+
+  #contact hr {
+  	width: 663px;
   }
 
 }
 
 @media (max-width: 640px) {
 
+  * {
+  	width: 498px;
+  }
+
   html {
   	max-width: 640px;
+  }
+
+  html, body {
+	margin: 0;
+	width: 640px;
+}
+
+  header {
+  	width: 640px;
+  }
+
+  li {
+  	width: 150px;
+  }
+
+  form {
+  	width: 538px;
+  }
+
+  textarea {
+  	width: 533px;
+  }
+
+  input[type="text"] {
+  	width: 533px;
+  }
+
+  .background {
+  	width: 640px;
   }
 
   .entire {
   	width: 640px;
   }
 
+  .portfolio {
+	width: 537px;
+	height: 403px;
+  }
+
   .footer p {
 	width: 187px;
 	position: relative;
-	right: 68px;
+	right: -32px;
+	padding: 40px 200px;
   }
 
   #navtitle {
   	width: 600px;
+  	right: 142px;
   }
 
   #navtitle h1 {
     position: relative;
     left: 150px;
+    width: 303px;
   }
 
   #navbar {
-/*  	width: 478px;
-
-*/  	width: 100%;
-		height: 107px;
-/*  	padding: 0px 20px 48px 142px;
-*/  }
+ 	width: 478px;
+	height: 107px;
+ 	padding: 0px 20px 48px 142px;  
+  }
 
   #navbar ul {
-  	left: -112px;
+  	left: -102px;
   	top: 23px;
+  	width: 549px;
+  	float: right;
+  }
+
+  #navbar li {
+  	width: 100px;
+  	margin: 0px 41px;
   }
 
   #navbar a {
     padding: 5px 66px;
   }
 
+  #navbar #contact-btn {
+  	position: relative;
+  	left: 20px;
+  }
+
   #main {
 	width: 539px;
 	height: 888px;
+  }
+
+  #main hr {
+  	width: 536px;
   }
 
   #main img {
@@ -464,7 +725,80 @@ input[type="submit"] {
 	margin-bottom: 52px;
   }
 
-   #sidebar ul {
+  #sidebar h3 {
+  	width: 540px;
+  }
+
+  #sidebar hr {
+  	width: 537px;
+  }
+
+  #sidebar ul {
 	left: 194px;
+	width: 246px;
+  }
+
+  #gallery {
+	width: 538px;
+	height: 2285px;
+	left: 22px;
+	margin-bottom: 40px;	
+  }
+
+  #gallery h2 {
+  	width: 537px;
+  }
+
+  #gallery hr {
+  	width: 534px;
+  }
+
+  #gallery p {
+  	top: 342px;
+  	width: 537px;
+  }
+
+  #hangman {
+ 	background-size: 537px 403px;
+  	margin-bottom: 42px;
+  }
+
+  #rpg-game {
+ 	background-size: 537px 403px;
+  	margin-bottom: 42px;
+  }
+
+  #trivia-game {
+ 	background-size: 537px 403px;
+  	margin-bottom: 42px;
+  }
+
+  #rutgers {
+ 	background-size: 537px 403px;
+  	margin-bottom: 42px;
+  }
+
+  #rps {
+	background-size: 537px 403px;
+  }
+
+  #contact {
+  	width: 539px;
+  }
+
+  #contact h2 {
+  	width: 538px;
+  }
+
+  #contact hr {
+  	width: 535px;
+  }
+
+  .footer {
+  	width: 640px;
+  }
+
+  .push {
+  	width: 640px;
   }
 }
