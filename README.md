@@ -1,2 +1,2 @@
 # Responsive-Portfolio
-A responsive portfolio
+A basic portfolio with media queries added on all three pages.
